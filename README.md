@@ -7,4 +7,4 @@ Covered ;
 - Event Listeners for onclick in html
 Contributions needed include 
 - a code function to trigger css "WINNER" animation property if (output.innerHTML === output1.innerHTML)
-- a code function to display winning outcomes in another <p> tag using innerHTML
+- a code function to display winning outcomes in another p tag using innerHTML
