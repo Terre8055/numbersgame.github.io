@@ -1,6 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <script type="text/javascript" src="/dist/demo.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NNumbers Game</title>
+    <script type="text/javascript" src="/tut.js"></script>
+    <link rel="stylesheet" href="/aviator.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <section class="curtain">
+      <div class="loadPage">
+        <h1>PLAY NUMBERS GAME</h1>
+        <h2>Click to Generate Number</h2>
+        <div class="bossNum">
+          <p class="font1" id="bossGen"></p>
+          <!-- <button type="button" id="button" onclick="randomFraction()"></button> -->
+          <button type="button" id="button1" onclick="randomFraction1()">
+            PLAY
+          </button>
+        </div>
+        <div class="display-Random">
+          <p class="font" id="font"></p>
+        </div>
+        <button type="button" id="button" onclick="randomFraction()">
+          JOKER
+        </button>
+      </div>
+    </section>
+    <!-- --------------Footer------------ -->
+    <section class="footer">
+      <h1>NOTICE</h1>
+
+      <p>Welcome to the Numbers game, Read the Instructions below</p>
+      <br /><br />
+      <ol>
+        <li>Match Jokers number to Win the Game</li>
+        <br />
+        <li>You can only reveal Jokers number after you play</li>
+        <br />
+        <li><strong> Do not reveal</strong> Jokers Number before you play</li>
+        <br />
+      </ol>
+      <p>Enjoy!!!</p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Developed by Michael Appiah Dankwah 2022</p>
+      <a href="https://github.com/Terre8055" target="_blank">GITHUB</a>
+    </section>
+  </body>
 </html>
